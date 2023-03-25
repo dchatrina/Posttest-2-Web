@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(229, 224, 255);
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11pt;
+}
+card{
+    background-color: rgb(229, 224, 255);
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px ;
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#cardconten{
+    padding: 12px 44px;
+}
+#card2{
+    margin-top: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+#cardtitle{
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 0px;
+    text-align: center;
+}
+#signup{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit{
+    background: -webkit-linear-gradient(right, rgb(48, 48, 162), rgb(93, 93, 189) );
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+#submit:hover{
+    box-shadow: 0px 1px 18px;
+    transform: scale(1.2);
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 295px;
+    background: white;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+.formborder{
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right, );
+    padding-top: 10px;
+}
+.formconten{
+    background-color: rgb(229, 224, 255);
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+.undertitle{
+    background: -webkit-linear-gradient(right);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}

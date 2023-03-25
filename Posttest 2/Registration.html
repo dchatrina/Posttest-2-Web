@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleR.css">
+    <title>ART Festival</title>
+</head>
+<body>
+    <nav>
+        <div class="list">
+            <div class="menu">
+                <a href="Home.html">Home</a>
+                <a href="Info.html">Info</a>
+                <a href="Registration.html">Registration</a>
+                <a href="Merchandise.html">Merchandise</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="contain">
+            <div class="title">Form Registrasi</div>
+            <div class="content">
+                <form action="#">
+                    <div class="usdet">
+                        <div class="input">
+                            <span class="det">Nama Lengkap</span>
+                            <input type="text" placeholder="Masukkan Nama Lengkap" required>
+                        </div>
+                    <div class="input">
+                            <span class="det">Email</span>
+                            <input type="email" placeholder="Masukkan Email Anda" required>
+                        </div>
+                    <div class="input">
+                            <span class="det">Nomor HP</span>
+                            <input type="text" placeholder="Masukkan Nomor HP" required>
+                        </div>
+                    </div>
+                    <div class="gendet">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <span class="gentitle">Jenis Kelamin</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Laki-laki</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Perempuan</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="lomdet">
+                        <div class="pil">
+                            <span class="det">Pilih Lomba : </span>
+                            <input type="checkbox" name="Tari"> Tari Kreasi
+                            <input type="checkbox" name="SM"> Short Movie
+                            <input type="checkbox" name="Photo"> Photography
+                            <input type="checkbox" name="Acoustic"> Acoustic
+                            <input type="checkbox" name="Paint"> Painting
+                        </div>
+                    </div>
+                    <div class="opsi">
+                        <div class="sel">
+                            <span class="det">Perguruan Tinggi</span>
+                            <select>
+                            <option value="1">Universitas Mulawarman</option>
+                            <option value="2">Universitas 17 Agustus 1945</option>
+                            <option value="3">Universitas Widya Gama Mahakam</option>
+                            <option value="4">STMIK</option>
+                            <option value="5">STIKES Wiyata Husada</option>
+                            <option value="6">Polnes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="gambar">
+                        <span>KTM</span>
+                        <input type="file">
+                    </div>
+                    <div class="alasan">
+                        <textarea 
+                        cols="50" 
+                        rows="4"
+                        placeholder="Ketik alasan anda mengikuti kegiatan ini"></textarea>
+                    </div>
+                    <div class="button"></div>
+                    <input type="submit" value="Registrasi">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023. <b>ARTFestival.</b> All Rights Reserved</p>
+    </footer>
+</body>
+<script src="Regis.js"></script>
+</html>

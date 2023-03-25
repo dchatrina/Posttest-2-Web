@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(229, 224, 255);
+}
+menu{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: rgb(142, 167, 233);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+nav a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    text-decoration: underline;
+}
+footer p{
+    width: 100%;
+    font-size: small;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: right;
+    padding: 30px 0 30px 0;
+    margin-top: 100px;
+    background-color: rgb(255, 242, 242);
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 60px;
+    transition: all;
+}
+img{
+    object-fit: cover;
+}
+.card > article{
+    box-shadow: 10px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background: white;
+    width: 200px;
+    transition: transform;
+}
+.card > article img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.konten{
+    font-size: 13px;
+    padding: 10px 0 20px 0;
+}
+.konten h2{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.konten p{
+    padding-bottom: 10px;
+}
+.card article:hover{
+    transform: scale(1.2);
+}

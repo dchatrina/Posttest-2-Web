@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(229, 224, 255);
+}
+menu{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: rgb(142, 167, 233);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+nav a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    text-decoration: underline;
+}
+main{
+    margin: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+main h1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: lighter;
+    font-family: fantasy;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.372),rgba(0, 0, 0, 0.349)), url(https://i.pinimg.com/564x/b0/ff/75/b0ff75cbc002218bcbfaf8c9fa225da0.jpg);
+    background-size: cover;
+}
+main h3{
+    font-family: georgia;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 80px;
+    color: #b32f2f;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+   
+}
+main p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 70px;
+    color: #2c4c92;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 30px;
+    text-decoration: dotted;
+    text-align: center;
+}
+main h4{
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 10px;
+    text-align: center;
+}
+footer p{
+    width: 100%;
+    font-size: small;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: right;
+    padding: 30px 0 30px 0;
+    margin-top: 80px;
+    background-color: rgb(255, 242, 242);
+}
